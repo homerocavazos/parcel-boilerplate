@@ -1,0 +1,28 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.js\" --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^2.4.0",
+    "sass": "^1.41.0"
+  },
+  "browerslist": [
+    "last 2 Chrome versions"
+  ]
+}
