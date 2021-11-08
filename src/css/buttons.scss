@@ -1,0 +1,11 @@
+.button {
+  $self: &;
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 16px;
+
+  &--yellow {
+    background-color: #ffc600;
+    color: #272727;
+  }
+}
